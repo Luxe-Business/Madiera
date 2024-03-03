@@ -14,7 +14,7 @@ async function ContactPage({ params: { locale } }) {
   // const companyMap = globalSettings?.attributes?.MapLink;
 
   return (
-    <>
+    <div>
       {/* <div className="contact-page pt-100 mb-100">
         <div className="container">
           <div className="row g-4 mb-100">
@@ -157,7 +157,7 @@ async function ContactPage({ params: { locale } }) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

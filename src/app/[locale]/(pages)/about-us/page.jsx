@@ -8,7 +8,6 @@ import About from "@/components/About Us/About/index";
 import Timeline from "@/components/Home/Timeline";
 import Team from "@/components/Home/Team";
 import ChooseUs from "@/components/About Us/ChooseUs";
-import MapChart from "@/components/MapChart/MapChart";
 
 // export async function generateMetadata({ params: { locale } }) {
 //   const aboutPageData = await getAboutPageData(locale);
@@ -34,7 +33,7 @@ function AboutUs({ params: { locale } }) {
   // const howDoesWorkData = aboutPageData?.attributes?.HowDoesWorkSection;
 
   return (
-    <>
+    <div>
       {/* <!-- Start About 
     ============================================= --> */}
       <About />
@@ -52,7 +51,7 @@ function AboutUs({ params: { locale } }) {
       <Team className="pt-150" />
 
       {/* <!-- End Team --> */}
-    </>
+    </div>
   );
 }
 

@@ -56,7 +56,7 @@ const index = ({ className }) => {
             <h2 className="title">Meet our professional Feed experts</h2>
             <a
               className="btn btn-theme secondary mt-10 btn-md radius animation"
-              href="en/contact"
+              href="/en/contact"
             >
               Contact Us
             </a>

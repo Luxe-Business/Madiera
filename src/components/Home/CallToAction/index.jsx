@@ -53,7 +53,7 @@ const CallToAction = () => {
                 your region or need guidance on crop rotation and planting
                 techniques, we are here to assist you every step of the way.
               </p>
-              <a href="en/contact">Contact Us</a>
+              <a href="/en/contact">Contact Us</a>
             </div>
           </div>
           <div className="col-xl-6 col-lg-12">

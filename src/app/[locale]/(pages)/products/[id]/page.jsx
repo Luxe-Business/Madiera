@@ -272,7 +272,7 @@ function ProductDetailsPage({ params: { locale, id } }) {
                     placeholder="0"
                   /> */}
                   <a
-                    href="#"
+                    href="/en/contact"
                     className="btn secondary btn-theme btn-sm animation"
                   >
                     Contact Us

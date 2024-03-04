@@ -153,6 +153,11 @@ function Header({ lang, HeaderLogo, categories }) {
                   {t("Header.blog")}
                 </Link>
               </li>
+              <li className=" d-block d-lg-none">
+                <Link legacyBehavior href={`/${lang}/contact`}>
+                  {t("Header.contact_us")}
+                </Link>
+              </li>
             </ul>
           </div>
           {/* <!-- /.navbar-collapse --> */}

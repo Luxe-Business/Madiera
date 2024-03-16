@@ -1,9 +1,10 @@
 "use client";
 
 import React from "react";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import { useTranslations } from "next-intl";
 
 const Faq = () => {
+  const t = useTranslations("default");
   return (
     <div className="feq-style-one-area default-padding bg-gray">
       <div className="container">
@@ -18,7 +19,7 @@ const Faq = () => {
           </div>
           <div className="col-lg-5 offset-lg-1">
             <div className="faq-style-one-info">
-              <h2 className="title">Learn more about growing process</h2>
+              <h2 className="title">{t("Home.faq_title")} </h2>
               <div
                 className="accordion accordion-regular mt-35 mt-xs-15"
                 id="faqAccordion"
@@ -33,7 +34,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      What do you add to the soil before you plant?
+                      {t("Home.faq_question_1")}
                     </button>
                   </h2>
                   <div
@@ -43,12 +44,7 @@ const Faq = () => {
                     data-bs-parent="#faqAccordion"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Bennings appetite disposed me an at subjects an. To no
-                        indulgence diminution so discovered mr apartments. Are
-                        off under folly death wrote cause her way spite. Plan
-                        upon yet way get cold spot its week.
-                      </p>
+                      <p>{t("Home.faq_answer_1")}</p>
                     </div>
                   </div>
                 </div>
@@ -62,7 +58,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      Do you use herbicides?
+                      {t("Home.faq_question_2")}
                     </button>
                   </h2>
                   <div
@@ -72,12 +68,7 @@ const Faq = () => {
                     data-bs-parent="#faqAccordion"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Cennings appetite disposed me an at subjects an. To no
-                        indulgence diminution so discovered mr apartments. Are
-                        off under folly death wrote cause her way spite. Plan
-                        upon yet way get cold spot its week.
-                      </p>
+                      <p>{t("Home.faq_answer_2")}</p>
                     </div>
                   </div>
                 </div>
@@ -91,7 +82,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      Where does the water come on your crops?
+                      {t("Home.faq_question_3")}
                     </button>
                   </h2>
                   <div
@@ -101,12 +92,7 @@ const Faq = () => {
                     data-bs-parent="#faqAccordion"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Tennings appetite disposed me an at subjects an. To no
-                        indulgence diminution so discovered mr apartments. Are
-                        off under folly death wrote cause her way spite. Plan
-                        upon yet way get cold spot its week.
-                      </p>
+                      <p>{t("Home.faq_answer_3")}</p>
                     </div>
                   </div>
                 </div>

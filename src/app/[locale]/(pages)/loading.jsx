@@ -16,7 +16,11 @@ const Loading = ({ children }) => {
       setLoading(false);
     }, 16000);
   }, []);
-  return <Preloader />;
+  return (
+    <div>
+      <Preloader />
+    </div>
+  );
 };
 
 export default Loading;

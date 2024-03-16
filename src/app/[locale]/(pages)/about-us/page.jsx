@@ -8,6 +8,7 @@ import About from "@/components/About Us/About/index";
 import Timeline from "@/components/Home/Timeline";
 import Team from "@/components/Home/Team";
 import ChooseUs from "@/components/About Us/ChooseUs";
+import MapChart from "@/components/MapChart/MapChart";
 
 // export async function generateMetadata({ params: { locale } }) {
 //   const aboutPageData = await getAboutPageData(locale);
@@ -56,27 +57,3 @@ function AboutUs({ params: { locale } }) {
 }
 
 export default AboutUs;
-
-{
-  /*     
-    <!-- jQuery Frameworks
-    ============================================= -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/progress-bar.min.js"></script>
-    <script src="assets/js/circle-progress.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/count-to.js"></script>
-    <script src="assets/js/jquery.scrolla.min.js"></script>
-    <script src="assets/js/ScrollOnReveal.js"></script>
-    <script src="assets/js/YTPlayer.min.js"></script>
-    <script src="assets/js/validnavs.js"></script>
-    <script src="assets/js/gsap.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/SplitText.min.js"></script>
-    <script src="assets/js/main.js"></script> */
-}

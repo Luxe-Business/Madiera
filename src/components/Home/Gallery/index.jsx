@@ -1,5 +1,3 @@
-import React from "react";
-
 const Gallery = () => {
   return (
     <div className="gallery-style-two-area default-padding">

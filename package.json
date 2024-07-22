@@ -26,7 +26,7 @@
     "jquery-circle-progress": "^1.2.2",
     "jquery-count-to": "^1.2.1",
     "magnific-popup": "^1.1.0",
-    "next": "13.4.12",
+    "next": "14.2.4",
     "next-intl": "^3.0.1",
     "qs": "^6.11.2",
     "react": "^18.2.0",
@@ -46,6 +46,7 @@
     "yet-another-react-lightbox": "^3.12.1"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.5.1",
     "@types/node": "20.9.2",
     "@types/react": "18.2.37",
     "autoprefixer": "^10.0.1",
